@@ -31,7 +31,7 @@ chmod 500 ./ngrok.sh
 #######################################################################################################################
 D:sunnyos-ngrok.sh
 
-wget --no-check-certificate https://github.com/soulCoke/ngrok-onekey/sunnyos-ngrok.sh -O ./sunnyos-ngrok.sh
+wget --no-check-certificate https://raw.githubusercontent.com/xj888xj/ngrok-onekey/master/sunnyos-ngrok.sh -O ./sunnyos-ngrok.sh
 
 chmod 500 ./sunnyos-ngrok.sh
 
