@@ -57,10 +57,10 @@ install_go(){
 		if [ ! -f $SELFPATH/go1.11.5.linux-amd64.tar.gz ];then
 			wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz --no-check-certificate
 		fi
-	    tar zxvf go1.7.6.linux-amd64.tar.gz
+	    tar zxvf go1.11.5.linux-amd64.tar.gz
 	else
-		if [ ! -f $SELFPATH/go1.7.6.linux-386.tar.gz ];then
-			wget https://www.golangtc.com/static/go/1.7.6/go1.7.6.linux-386.tar.gz --no-check-certificate
+		if [ ! -f $SELFPATH/go1.11.5.linux-amd64.tar.gz ];then
+			wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz --no-check-certificate
 		fi
 	    tar zxvf go1.11.5.linux-amd64.tar.gz
 	fi
