@@ -7,7 +7,7 @@ ngrok：/usr/local/ngrok
 ##################################################################################################################
 A:install-ngrok.sh
 
-wget --no-check-certificate https://github.com/soulCoke/ngrok-onekey/install-ngrok.sh -O ./install-ngrok.sh
+wget --no-check-certificate https://raw.githubusercontent.com/soulCoke/ngrok-onekey/master/onekey-ngrok.sh -O ./install-ngrok.sh
 
 chmod 500 ./install-ngrok.sh
 
@@ -15,7 +15,7 @@ chmod 500 ./install-ngrok.sh
 #####################################################################################################################
 B:onekey-ngrok.sh
 
-wget --no-check-certificate https://github.com/soulCoke/onekey-ngrok.sh -O ./onekey-ngrok.sh
+wget --no-check-certificate https://raw.githubusercontent.com/soulCoke/ngrok-onekey/master/onekey-ngrok.sh -O ./onekey-ngrok.sh
 
 chmod 500 ./onekey-ngrok.sh
 
@@ -23,7 +23,7 @@ chmod 500 ./onekey-ngrok.sh
 ###################################################################################################################
 C:ngrok.sh
 
-wget --no-check-certificate https://github.com/soulCoke/ngrok-onekey/ngrok.sh -O ./ngrok.sh
+wget --no-check-certificate https://raw.githubusercontent.com/soulCoke/ngrok-onekey/master/ngrok.sh -O ./ngrok.sh
 
 chmod 500 ./ngrok.sh
 
@@ -31,7 +31,7 @@ chmod 500 ./ngrok.sh
 #######################################################################################################################
 D:sunnyos-ngrok.sh
 
-wget --no-check-certificate https://raw.githubusercontent.com/xj888xj/ngrok-onekey/master/sunnyos-ngrok.sh -O ./sunnyos-ngrok.sh
+wget --no-check-certificate https://raw.githubusercontent.com/soulCoke/ngrok-onekey/master/sunnyos-ngrok.sh -O ./sunnyos-ngrok.sh
 
 chmod 500 ./sunnyos-ngrok.sh
 
